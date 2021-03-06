@@ -1,0 +1,160 @@
+/* Defines default margins, paddings and tells the browser to take into account the borders and padding for the height and width of the element */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Sets webpage background color */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Sets font properties, background color, box padding and text color for the header */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Defines h1 as an inline block and overrides its default font size value */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Sets the color for the letters "seo" in the word "Horiseon" that is located in the header */
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Sets font properties, padding, margin and tell the elements to take the right side of the screen as starting point for the
+elements inside the section that inhabits the header */
+header section {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Removes the bullets from the unordered list */
+header section ul {
+    list-style-type: none;
+}
+
+/* Tells the unordered list to no break lines after each element and defines a margin */
+header section ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Sets the font color and removes the underline from the attachments on the header*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Defines the font size of the text inside the paragraphs */
+p {
+    font-size: 16px;
+}
+
+/* Defines the properties for the hero image that comes right after the header */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Sets the properties for images that are positioned on the left side of the section */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Sets the properties for images that are positioned on the right side of the section */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Creates a container called content that takes 75% of the screen, starting from the left, and tells the browser to not
+break the line */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Defines the properties of the 3 sections that inhabit the container called content*/
+.content-layout {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Limits the max height of the images that are inside each section that belong to the content class */
+.content-layout img {
+    max-height: 200px;
+}
+
+/* Sets the margin and font size of the headers insider the content class */
+.content-layout h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Defines the properties of the 3 sections that inhabit the container called benefits, this container is going to take the remaining
+25% that the content container didn't take */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Defines the margin and font color of the 3 sections inside the benefits container */
+.benefits-layout{
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Defines the margin and centers the text of the headers inside the benefits container */
+.benefits-layout h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Defines top and bottom margin for images and centers them on the x axis, defines the max width of the elements
+and defines them as block; therefore, a break line will occur */
+.benefits-layout img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Defines the font family, padding and centers the text inside the footer, it also tells the footer that it does not want to coexist
+with a floating element */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Defines the font size of the headers inside the footer */
+footer h2 {
+    font-size: 20px;
+}
