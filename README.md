@@ -20,7 +20,7 @@ This activity had two main purposes, implemenenting semantic elements and improv
 
 The first part of this activity was achieved by identifying the core sections of the code in the html file and replacing the "div" tags with their proper semantic tag. An example can be seen in the following image.
 
-|![Code without semantic tags](assets/images/code-without-semantics.jpg)   | ![Code without semantic tags](assets/images/code-with-semantics.jpg) |
+|![Code without semantic tags](assets/images/code-without-semantics.JPG)   | ![Code without semantic tags](assets/images/code-with-semantics.JPG) |
 | ------------- | ------------- |
 | Code without semantic tags  | Code with semantic tags  |
 
@@ -28,13 +28,13 @@ The first part of this activity was achieved by identifying the core sections of
 
 The latter was achieved by analyzing the css file and identifying the multiple classes that had the same attributes and belonged to the same parent class. After identifying the common elements, we stored the attributes in a new class that replaced the redundant one and implemented this class in the html code, this process can be seen in the following example
 
-|![Code with redundant classes](assets/images/code-redundant.jpg)   | ![Code without redundant classes](assets/images/code-non-redundant.jpg) |
+|![Code with redundant classes](assets/images/code-redundant.JPG)   | ![Code without redundant classes](assets/images/code-non-redundant.JPG) |
 | ------------- | ------------- |
 | CSS code with redundant classes  | CSS code without redundant classes  |
 
 &nbsp;
 
-|![Original HTML code](assets/images/code-original-html.jpg)   | ![Code without redundant classes](assets/images/code-fixed-html.jpg) |
+|![Original HTML code](assets/images/code-original-html.JPG)   | ![Code without redundant classes](assets/images/code-fixed-html.JPG) |
 | ------------- | ------------- |
 | HTML code with redundant classes  | HTML code without redundant classes  |
 
